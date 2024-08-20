@@ -1,0 +1,741 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D13B7C8285C6CCF00412414 /* CanvasViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D13B7A0285C6CCF00412414 /* CanvasViewModel.swift */; };
+		8D13B7C9285C6CCF00412414 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D13B7A1285C6CCF00412414 /* Assets.xcassets */; };
+		8D13B7CA285C6CCF00412414 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D13B7A2285C6CCF00412414 /* Main.storyboard */; };
+		8D13B7CB285C6CCF00412414 /* ThumbNailGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D13B7A4285C6CCF00412414 /* ThumbNailGenerator.swift */; };
+		8D13B7CC285C6CCF00412414 /* RootSplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D13B7A5285C6CCF00412414 /* RootSplitViewController.swift */; };
+		8D13B7CE285C6CCF00412414 /* MeetingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D13B7A8285C6CCF00412414 /* MeetingData.swift */; };
+		8D13B7CF285C6CCF00412414 /* CanvasEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D13B7A9285C6CCF00412414 /* CanvasEditorViewController.swift */; };
+		8D13B7D0285C6CCF00412414 /* TabItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D13B7AD285C6CCF00412414 /* TabItem.xib */; };
+		8D13B7D1285C6CCF00412414 /* GapIndicator.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D13B7AE285C6CCF00412414 /* GapIndicator.xib */; };
+		8D13B7D2285C6CCF00412414 /* TabItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D13B7AF285C6CCF00412414 /* TabItem.swift */; };
+		8D13B7D3285C6CCF00412414 /* TabCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D13B7B0285C6CCF00412414 /* TabCollectionViewController.swift */; };
+		8D13B7D4285C6CCF00412414 /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D13B7B2285C6CCF00412414 /* CanvasView.swift */; };
+		8D13B7D5285C6CCF00412414 /* CanvasGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D13B7B3285C6CCF00412414 /* CanvasGenerator.swift */; };
+		8D13B7D6285C6CCF00412414 /* LayoutObjectRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D13B7B4285C6CCF00412414 /* LayoutObjectRectangle.swift */; };
+		8D13B7D7285C6CCF00412414 /* VirtualRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D13B7B5285C6CCF00412414 /* VirtualRectangle.swift */; };
+		8D13B7D8285C6CCF00412414 /* DraggableResizeableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D13B7B6285C6CCF00412414 /* DraggableResizeableView.swift */; };
+		8D13B7D9285C6CCF00412414 /* ColoredView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D13B7B7285C6CCF00412414 /* ColoredView.swift */; };
+		8D13B7DA285C6CCF00412414 /* DialogueManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D13B7B9285C6CCF00412414 /* DialogueManager.swift */; };
+		8D13B7DB285C6CCF00412414 /* DialogueWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D13B7BA285C6CCF00412414 /* DialogueWindowController.swift */; };
+		8D13B7DC285C6CCF00412414 /* LayoutObjectDialogueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D13B7BB285C6CCF00412414 /* LayoutObjectDialogueViewController.swift */; };
+		8D13B7E1285C6CCF00412414 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D13B7C1285C6CCF00412414 /* AppDelegate.swift */; };
+		8D13B7E3285C6CCF00412414 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8D13B7C4285C6CCF00412414 /* OpenSans-Regular.ttf */; };
+		8D13B7E4285C6CCF00412414 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D13B7C5285C6CCF00412414 /* Info.plist */; };
+		8D1A36BC285C9E7100180C88 /* RootWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D13B7C2285C6CCF00412414 /* RootWindowController.swift */; };
+		8D1A36BF2860580200180C88 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1A36BE2860580200180C88 /* Utilities.swift */; };
+		8D1A36C12860583500180C88 /* LaunchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1A36C02860583500180C88 /* LaunchManager.swift */; };
+		8D1A36C32860583A00180C88 /* VSLaunchObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1A36C22860583A00180C88 /* VSLaunchObject.swift */; };
+		8D1DA16E288A49D7006769DB /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1DA16D288A49D7006769DB /* Extensions.swift */; };
+		8D3AA4B5287FF19D007E9499 /* MeetingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3AA4B4287FF19D007E9499 /* MeetingViewController.swift */; };
+		8D3AA4B928813B44007E9499 /* MeetingRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3AA4B828813B44007E9499 /* MeetingRecord.swift */; };
+		8D3AA4BB2882730D007E9499 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3AA4BA2882730D007E9499 /* Observable.swift */; };
+		8D3AA4BE2882905F007E9499 /* ScreenListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3AA4BD2882905F007E9499 /* ScreenListViewController.swift */; };
+		8D3BD97A287DBD78008B6BF6 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3BD979287DBD78008B6BF6 /* RootViewController.swift */; };
+		8D41F8C42872E3E1005454E6 /* ProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D41F8C32872E3E1005454E6 /* ProgressViewController.swift */; };
+		8D5BA8A02897B1ED00530089 /* MeetingGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5BA89F2897B1ED00530089 /* MeetingGenerator.swift */; };
+		8D68A5622907C0BE00A8BA92 /* AlertGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D68A5612907C0BE00A8BA92 /* AlertGenerator.swift */; };
+		8D98EEB22879C2320015BBE6 /* SplitViewCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D98EEB12879C2320015BBE6 /* SplitViewCreator.swift */; };
+		8DA6A3C1286AE63B00D710C6 /* MappingRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA6A3C0286AE63B00D710C6 /* MappingRule.swift */; };
+		8DA6A3C4286AEF6300D710C6 /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = 8DA6A3C3286AEF6300D710C6 /* Algorithms */; };
+		8DAC809E289CD95500999A5E /* TrackingBackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAC809D289CD95500999A5E /* TrackingBackView.swift */; };
+		8DB899552906682900A68304 /* SimplyCoreAudio in Frameworks */ = {isa = PBXBuildFile; productRef = 8DB899542906682900A68304 /* SimplyCoreAudio */; };
+		8DE1AAC1292B60C4002E3F59 /* VSTrackingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE1AAC0292B60C4002E3F59 /* VSTrackingView.swift */; };
+		8DE1AAC3292B613C002E3F59 /* VSTrackingBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE1AAC2292B613C002E3F59 /* VSTrackingBtn.swift */; };
+		8DE4FAB42C2C615F00B1753C /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 8DE4FAB32C2C615F00B1753C /* SnapKit */; };
+		8DF1BED32892905200604CEB /* MeetingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF1BED12892905200604CEB /* MeetingItem.swift */; };
+		8DF1BED42892905200604CEB /* MeetingItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DF1BED22892905200604CEB /* MeetingItem.xib */; };
+		8DF1BED8289295A600604CEB /* MeetingCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF1BED7289295A600604CEB /* MeetingCollectionViewController.swift */; };
+		E41742E32897D73600BF5967 /* ScreenCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41742E22897D73600BF5967 /* ScreenCollectionViewController.swift */; };
+		E46CD2A7289D0A0A007516DF /* ScreenItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46CD2A5289D0A0A007516DF /* ScreenItem.swift */; };
+		E46CD2A8289D0A0A007516DF /* ScreenItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = E46CD2A6289D0A0A007516DF /* ScreenItem.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8DE4FAB22C2C613100B1753C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8D0E4DC128E2E3DB00D96F81 /* MeetingTool-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MeetingTool-Bridging-Header.h"; sourceTree = "<group>"; };
+		8D0E4DCC28EAB7F400D96F81 /* ToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleView.swift; sourceTree = "<group>"; };
+		8D13B7A0285C6CCF00412414 /* CanvasViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanvasViewModel.swift; sourceTree = "<group>"; };
+		8D13B7A1285C6CCF00412414 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8D13B7A3285C6CCF00412414 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8D13B7A4285C6CCF00412414 /* ThumbNailGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThumbNailGenerator.swift; sourceTree = "<group>"; };
+		8D13B7A5285C6CCF00412414 /* RootSplitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootSplitViewController.swift; sourceTree = "<group>"; };
+		8D13B7A8285C6CCF00412414 /* MeetingData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeetingData.swift; sourceTree = "<group>"; };
+		8D13B7A9285C6CCF00412414 /* CanvasEditorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanvasEditorViewController.swift; sourceTree = "<group>"; };
+		8D13B7AD285C6CCF00412414 /* TabItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabItem.xib; sourceTree = "<group>"; };
+		8D13B7AE285C6CCF00412414 /* GapIndicator.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GapIndicator.xib; sourceTree = "<group>"; };
+		8D13B7AF285C6CCF00412414 /* TabItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabItem.swift; sourceTree = "<group>"; };
+		8D13B7B0285C6CCF00412414 /* TabCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabCollectionViewController.swift; sourceTree = "<group>"; };
+		8D13B7B2285C6CCF00412414 /* CanvasView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
+		8D13B7B3285C6CCF00412414 /* CanvasGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanvasGenerator.swift; sourceTree = "<group>"; };
+		8D13B7B4285C6CCF00412414 /* LayoutObjectRectangle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutObjectRectangle.swift; sourceTree = "<group>"; };
+		8D13B7B5285C6CCF00412414 /* VirtualRectangle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VirtualRectangle.swift; sourceTree = "<group>"; };
+		8D13B7B6285C6CCF00412414 /* DraggableResizeableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DraggableResizeableView.swift; sourceTree = "<group>"; };
+		8D13B7B7285C6CCF00412414 /* ColoredView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColoredView.swift; sourceTree = "<group>"; };
+		8D13B7B9285C6CCF00412414 /* DialogueManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DialogueManager.swift; sourceTree = "<group>"; };
+		8D13B7BA285C6CCF00412414 /* DialogueWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DialogueWindowController.swift; sourceTree = "<group>"; };
+		8D13B7BB285C6CCF00412414 /* LayoutObjectDialogueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutObjectDialogueViewController.swift; sourceTree = "<group>"; };
+		8D13B7C1285C6CCF00412414 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8D13B7C2285C6CCF00412414 /* RootWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootWindowController.swift; sourceTree = "<group>"; };
+		8D13B7C4285C6CCF00412414 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		8D13B7C5285C6CCF00412414 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D13B7C6285C6CCF00412414 /* MeetingTool.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = MeetingTool.entitlements; sourceTree = "<group>"; };
+		8D15AB8327E9942200B30250 /* MeetingLogic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeetingLogic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D1A36BE2860580200180C88 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		8D1A36C02860583500180C88 /* LaunchManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchManager.swift; sourceTree = "<group>"; };
+		8D1A36C22860583A00180C88 /* VSLaunchObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VSLaunchObject.swift; sourceTree = "<group>"; };
+		8D1DA16D288A49D7006769DB /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		8D21441728F7F1890086A97F /* MenuHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuHandler.swift; sourceTree = "<group>"; };
+		8D3AA4B4287FF19D007E9499 /* MeetingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingViewController.swift; sourceTree = "<group>"; };
+		8D3AA4B828813B44007E9499 /* MeetingRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingRecord.swift; sourceTree = "<group>"; };
+		8D3AA4BA2882730D007E9499 /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		8D3AA4BD2882905F007E9499 /* ScreenListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenListViewController.swift; sourceTree = "<group>"; };
+		8D3BD979287DBD78008B6BF6 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		8D41F8C32872E3E1005454E6 /* ProgressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewController.swift; sourceTree = "<group>"; };
+		8D5BA89F2897B1ED00530089 /* MeetingGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingGenerator.swift; sourceTree = "<group>"; };
+		8D68A5612907C0BE00A8BA92 /* AlertGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertGenerator.swift; sourceTree = "<group>"; };
+		8D98EEB12879C2320015BBE6 /* SplitViewCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitViewCreator.swift; sourceTree = "<group>"; };
+		8D9C5C102900ED3F005E0EDA /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
+		8DA6A3C0286AE63B00D710C6 /* MappingRule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MappingRule.swift; sourceTree = "<group>"; };
+		8DAC809D289CD95500999A5E /* TrackingBackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingBackView.swift; sourceTree = "<group>"; };
+		8DE1AAC0292B60C4002E3F59 /* VSTrackingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VSTrackingView.swift; sourceTree = "<group>"; };
+		8DE1AAC2292B613C002E3F59 /* VSTrackingBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VSTrackingBtn.swift; sourceTree = "<group>"; };
+		8DF1BED12892905200604CEB /* MeetingItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingItem.swift; sourceTree = "<group>"; };
+		8DF1BED22892905200604CEB /* MeetingItem.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MeetingItem.xib; sourceTree = "<group>"; };
+		8DF1BED7289295A600604CEB /* MeetingCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingCollectionViewController.swift; sourceTree = "<group>"; };
+		E41742E22897D73600BF5967 /* ScreenCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenCollectionViewController.swift; sourceTree = "<group>"; };
+		E46CD2A5289D0A0A007516DF /* ScreenItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenItem.swift; sourceTree = "<group>"; };
+		E46CD2A6289D0A0A007516DF /* ScreenItem.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScreenItem.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D15AB8027E9942200B30250 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DE4FAB42C2C615F00B1753C /* SnapKit in Frameworks */,
+				8DB899552906682900A68304 /* SimplyCoreAudio in Frameworks */,
+				8DA6A3C4286AEF6300D710C6 /* Algorithms in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D0E4DBF28E2E3DB00D96F81 /* VoiceQualityEnhancement */ = {
+			isa = PBXGroup;
+			children = (
+				8D0E4DC128E2E3DB00D96F81 /* MeetingTool-Bridging-Header.h */,
+				8D21441728F7F1890086A97F /* MenuHandler.swift */,
+				8D0E4DCC28EAB7F400D96F81 /* ToggleView.swift */,
+				8D9C5C102900ED3F005E0EDA /* AudioManager.swift */,
+			);
+			path = VoiceQualityEnhancement;
+			sourceTree = "<group>";
+		};
+		8D13B79E285C6CCF00412414 /* LaunchLayout */ = {
+			isa = PBXGroup;
+			children = (
+				8D1DA16C288A49C8006769DB /* Extensions */,
+				8D13B7AA285C6CCF00412414 /* View */,
+				8D13B79F285C6CCF00412414 /* ViewModel */,
+				8D13B7A7285C6CCF00412414 /* Model */,
+				8D1A36BB285C9BA500180C88 /* Generator */,
+				8D13B7A1285C6CCF00412414 /* Assets.xcassets */,
+				8D13B7A2285C6CCF00412414 /* Main.storyboard */,
+				8D13B7C5285C6CCF00412414 /* Info.plist */,
+				8D13B7C6285C6CCF00412414 /* MeetingTool.entitlements */,
+				8D13B7C1285C6CCF00412414 /* AppDelegate.swift */,
+				8D13B7C3285C6CCF00412414 /* Fonts */,
+			);
+			path = LaunchLayout;
+			sourceTree = "<group>";
+		};
+		8D13B79F285C6CCF00412414 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8D13B7A0285C6CCF00412414 /* CanvasViewModel.swift */,
+				8D3AA4BA2882730D007E9499 /* Observable.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8D13B7A7285C6CCF00412414 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8D3AA4B828813B44007E9499 /* MeetingRecord.swift */,
+				8D13B7A8285C6CCF00412414 /* MeetingData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8D13B7AA285C6CCF00412414 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8D13B7C2285C6CCF00412414 /* RootWindowController.swift */,
+				8D3BD979287DBD78008B6BF6 /* RootViewController.swift */,
+				8D13B7A5285C6CCF00412414 /* RootSplitViewController.swift */,
+				8D13B7B7285C6CCF00412414 /* ColoredView.swift */,
+				8DAC809D289CD95500999A5E /* TrackingBackView.swift */,
+				8D3AA4B1287FEFF9007E9499 /* Meeting */,
+				8D13B7AB285C6CCF00412414 /* CanvasEditor */,
+				8D3AA4BC28829017007E9499 /* Screens */,
+				8D13B7B8285C6CCF00412414 /* Dialogue */,
+				8DE1AAC0292B60C4002E3F59 /* VSTrackingView.swift */,
+				8DE1AAC2292B613C002E3F59 /* VSTrackingBtn.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8D13B7AB285C6CCF00412414 /* CanvasEditor */ = {
+			isa = PBXGroup;
+			children = (
+				8D13B7A9285C6CCF00412414 /* CanvasEditorViewController.swift */,
+				8D13B7B1285C6CCF00412414 /* Canvas */,
+				8D13B7AC285C6CCF00412414 /* Tab */,
+			);
+			path = CanvasEditor;
+			sourceTree = "<group>";
+		};
+		8D13B7AC285C6CCF00412414 /* Tab */ = {
+			isa = PBXGroup;
+			children = (
+				8D13B7AD285C6CCF00412414 /* TabItem.xib */,
+				8D13B7AE285C6CCF00412414 /* GapIndicator.xib */,
+				8D13B7AF285C6CCF00412414 /* TabItem.swift */,
+				8D13B7B0285C6CCF00412414 /* TabCollectionViewController.swift */,
+			);
+			path = Tab;
+			sourceTree = "<group>";
+		};
+		8D13B7B1285C6CCF00412414 /* Canvas */ = {
+			isa = PBXGroup;
+			children = (
+				8D13B7B2285C6CCF00412414 /* CanvasView.swift */,
+				8D13B7B4285C6CCF00412414 /* LayoutObjectRectangle.swift */,
+				8D13B7B5285C6CCF00412414 /* VirtualRectangle.swift */,
+				8D13B7B6285C6CCF00412414 /* DraggableResizeableView.swift */,
+			);
+			path = Canvas;
+			sourceTree = "<group>";
+		};
+		8D13B7B8285C6CCF00412414 /* Dialogue */ = {
+			isa = PBXGroup;
+			children = (
+				8D13B7B9285C6CCF00412414 /* DialogueManager.swift */,
+				8D13B7BA285C6CCF00412414 /* DialogueWindowController.swift */,
+				8D13B7BB285C6CCF00412414 /* LayoutObjectDialogueViewController.swift */,
+				8D41F8C32872E3E1005454E6 /* ProgressViewController.swift */,
+				8DA6A3C0286AE63B00D710C6 /* MappingRule.swift */,
+			);
+			path = Dialogue;
+			sourceTree = "<group>";
+		};
+		8D13B7C3285C6CCF00412414 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8D13B7C4285C6CCF00412414 /* OpenSans-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		8D15AB7A27E9942200B30250 = {
+			isa = PBXGroup;
+			children = (
+				8D13B79E285C6CCF00412414 /* LaunchLayout */,
+				8D1A36BD286057CF00180C88 /* AutoLayout */,
+				8D0E4DBF28E2E3DB00D96F81 /* VoiceQualityEnhancement */,
+				8D15AB8427E9942200B30250 /* Products */,
+				8DE4FAAE2C2C613100B1753C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8D15AB8427E9942200B30250 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D15AB8327E9942200B30250 /* MeetingLogic.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D1A36BB285C9BA500180C88 /* Generator */ = {
+			isa = PBXGroup;
+			children = (
+				8D98EEB12879C2320015BBE6 /* SplitViewCreator.swift */,
+				8D13B7A4285C6CCF00412414 /* ThumbNailGenerator.swift */,
+				8D13B7B3285C6CCF00412414 /* CanvasGenerator.swift */,
+				8D5BA89F2897B1ED00530089 /* MeetingGenerator.swift */,
+				8D68A5612907C0BE00A8BA92 /* AlertGenerator.swift */,
+			);
+			path = Generator;
+			sourceTree = "<group>";
+		};
+		8D1A36BD286057CF00180C88 /* AutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				8D1A36BE2860580200180C88 /* Utilities.swift */,
+				8D1A36C02860583500180C88 /* LaunchManager.swift */,
+				8D1A36C22860583A00180C88 /* VSLaunchObject.swift */,
+			);
+			path = AutoLayout;
+			sourceTree = "<group>";
+		};
+		8D1DA16C288A49C8006769DB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8D1DA16D288A49D7006769DB /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8D3AA4B1287FEFF9007E9499 /* Meeting */ = {
+			isa = PBXGroup;
+			children = (
+				8D3AA4B4287FF19D007E9499 /* MeetingViewController.swift */,
+				8DF1BED7289295A600604CEB /* MeetingCollectionViewController.swift */,
+				8DF1BED12892905200604CEB /* MeetingItem.swift */,
+				8DF1BED22892905200604CEB /* MeetingItem.xib */,
+			);
+			path = Meeting;
+			sourceTree = "<group>";
+		};
+		8D3AA4BC28829017007E9499 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				8D3AA4BD2882905F007E9499 /* ScreenListViewController.swift */,
+				E41742E12897D6D500BF5967 /* ScreenCollectionView */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		8DE4FAAE2C2C613100B1753C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E41742E12897D6D500BF5967 /* ScreenCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				E41742E22897D73600BF5967 /* ScreenCollectionViewController.swift */,
+				E46CD2A5289D0A0A007516DF /* ScreenItem.swift */,
+				E46CD2A6289D0A0A007516DF /* ScreenItem.xib */,
+			);
+			path = ScreenCollectionView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D15AB8227E9942200B30250 /* LaunchLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D15AB9527E9942400B30250 /* Build configuration list for PBXNativeTarget "LaunchLayout" */;
+			buildPhases = (
+				8D15AB7F27E9942200B30250 /* Sources */,
+				8D15AB8027E9942200B30250 /* Frameworks */,
+				8D15AB8127E9942200B30250 /* Resources */,
+				8DE4FAB22C2C613100B1753C /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LaunchLayout;
+			packageProductDependencies = (
+				8DA6A3C3286AEF6300D710C6 /* Algorithms */,
+				8DB899542906682900A68304 /* SimplyCoreAudio */,
+				8DE4FAB32C2C615F00B1753C /* SnapKit */,
+			);
+			productName = TestMouseEvent;
+			productReference = 8D15AB8327E9942200B30250 /* MeetingLogic.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D15AB7B27E9942200B30250 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					8D15AB8227E9942200B30250 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = 8D15AB7E27E9942200B30250 /* Build configuration list for PBXProject "LaunchLayout" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8D15AB7A27E9942200B30250;
+			packageReferences = (
+				8DA6A3C2286AEF6300D710C6 /* XCRemoteSwiftPackageReference "swift-algorithms" */,
+				8DB899532906682900A68304 /* XCRemoteSwiftPackageReference "SimplyCoreAudio" */,
+				8DE4FAA92C2C5F8300B1753C /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
+			productRefGroup = 8D15AB8427E9942200B30250 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D15AB8227E9942200B30250 /* LaunchLayout */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D15AB8127E9942200B30250 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D13B7E3285C6CCF00412414 /* OpenSans-Regular.ttf in Resources */,
+				8D13B7C9285C6CCF00412414 /* Assets.xcassets in Resources */,
+				8D13B7E4285C6CCF00412414 /* Info.plist in Resources */,
+				8D13B7D0285C6CCF00412414 /* TabItem.xib in Resources */,
+				8D13B7D1285C6CCF00412414 /* GapIndicator.xib in Resources */,
+				8D13B7CA285C6CCF00412414 /* Main.storyboard in Resources */,
+				8DF1BED42892905200604CEB /* MeetingItem.xib in Resources */,
+				E46CD2A8289D0A0A007516DF /* ScreenItem.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D15AB7F27E9942200B30250 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D13B7E1285C6CCF00412414 /* AppDelegate.swift in Sources */,
+				E41742E32897D73600BF5967 /* ScreenCollectionViewController.swift in Sources */,
+				8D13B7D8285C6CCF00412414 /* DraggableResizeableView.swift in Sources */,
+				8D3AA4B928813B44007E9499 /* MeetingRecord.swift in Sources */,
+				8D1A36BF2860580200180C88 /* Utilities.swift in Sources */,
+				8DF1BED32892905200604CEB /* MeetingItem.swift in Sources */,
+				8D13B7CB285C6CCF00412414 /* ThumbNailGenerator.swift in Sources */,
+				8D13B7D9285C6CCF00412414 /* ColoredView.swift in Sources */,
+				8D13B7DA285C6CCF00412414 /* DialogueManager.swift in Sources */,
+				8DE1AAC3292B613C002E3F59 /* VSTrackingBtn.swift in Sources */,
+				8D13B7D3285C6CCF00412414 /* TabCollectionViewController.swift in Sources */,
+				8D13B7DC285C6CCF00412414 /* LayoutObjectDialogueViewController.swift in Sources */,
+				8D98EEB22879C2320015BBE6 /* SplitViewCreator.swift in Sources */,
+				8D13B7CC285C6CCF00412414 /* RootSplitViewController.swift in Sources */,
+				8D13B7D2285C6CCF00412414 /* TabItem.swift in Sources */,
+				8D13B7CE285C6CCF00412414 /* MeetingData.swift in Sources */,
+				E46CD2A7289D0A0A007516DF /* ScreenItem.swift in Sources */,
+				8D1A36C32860583A00180C88 /* VSLaunchObject.swift in Sources */,
+				8DA6A3C1286AE63B00D710C6 /* MappingRule.swift in Sources */,
+				8D3AA4BE2882905F007E9499 /* ScreenListViewController.swift in Sources */,
+				8D1A36C12860583500180C88 /* LaunchManager.swift in Sources */,
+				8D3BD97A287DBD78008B6BF6 /* RootViewController.swift in Sources */,
+				8D1DA16E288A49D7006769DB /* Extensions.swift in Sources */,
+				8D5BA8A02897B1ED00530089 /* MeetingGenerator.swift in Sources */,
+				8DF1BED8289295A600604CEB /* MeetingCollectionViewController.swift in Sources */,
+				8D13B7D6285C6CCF00412414 /* LayoutObjectRectangle.swift in Sources */,
+				8D41F8C42872E3E1005454E6 /* ProgressViewController.swift in Sources */,
+				8D1A36BC285C9E7100180C88 /* RootWindowController.swift in Sources */,
+				8D13B7C8285C6CCF00412414 /* CanvasViewModel.swift in Sources */,
+				8D13B7CF285C6CCF00412414 /* CanvasEditorViewController.swift in Sources */,
+				8DE1AAC1292B60C4002E3F59 /* VSTrackingView.swift in Sources */,
+				8DAC809E289CD95500999A5E /* TrackingBackView.swift in Sources */,
+				8D13B7D7285C6CCF00412414 /* VirtualRectangle.swift in Sources */,
+				8D3AA4BB2882730D007E9499 /* Observable.swift in Sources */,
+				8D68A5622907C0BE00A8BA92 /* AlertGenerator.swift in Sources */,
+				8D13B7D4285C6CCF00412414 /* CanvasView.swift in Sources */,
+				8D13B7D5285C6CCF00412414 /* CanvasGenerator.swift in Sources */,
+				8D13B7DB285C6CCF00412414 /* DialogueWindowController.swift in Sources */,
+				8D3AA4B5287FF19D007E9499 /* MeetingViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8D13B7A2285C6CCF00412414 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D13B7A3285C6CCF00412414 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8D15AB9327E9942400B30250 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8D15AB9427E9942400B30250 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		8D15AB9627E9942400B30250 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MeetingTool/MeetingTool.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_ON_DEMAND_RESOURCES = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MeetingTool/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shaojen.launchlayout;
+				PRODUCT_NAME = MeetingLogic;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "VoiceQualityEnhancement/MeetingTool-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8D15AB9727E9942400B30250 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MeetingTool/MeetingTool.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_ON_DEMAND_RESOURCES = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MeetingTool/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shaojen.launchlayout;
+				PRODUCT_NAME = MeetingLogic;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "VoiceQualityEnhancement/MeetingTool-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D15AB7E27E9942200B30250 /* Build configuration list for PBXProject "LaunchLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D15AB9327E9942400B30250 /* Debug */,
+				8D15AB9427E9942400B30250 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D15AB9527E9942400B30250 /* Build configuration list for PBXNativeTarget "LaunchLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D15AB9627E9942400B30250 /* Debug */,
+				8D15AB9727E9942400B30250 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8DA6A3C2286AEF6300D710C6 /* XCRemoteSwiftPackageReference "swift-algorithms" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-algorithms.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		8DB899532906682900A68304 /* XCRemoteSwiftPackageReference "SimplyCoreAudio" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rnine/SimplyCoreAudio.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+		8DE4FAA92C2C5F8300B1753C /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8DA6A3C3286AEF6300D710C6 /* Algorithms */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8DA6A3C2286AEF6300D710C6 /* XCRemoteSwiftPackageReference "swift-algorithms" */;
+			productName = Algorithms;
+		};
+		8DB899542906682900A68304 /* SimplyCoreAudio */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8DB899532906682900A68304 /* XCRemoteSwiftPackageReference "SimplyCoreAudio" */;
+			productName = SimplyCoreAudio;
+		};
+		8DE4FAB32C2C615F00B1753C /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8DE4FAA92C2C5F8300B1753C /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 8D15AB7B27E9942200B30250 /* Project object */;
+}

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="21225" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="21225"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="TabItem" customModule="MeetingLogic" customModuleProvider="target">
+            <connections>
+                <outlet property="tabDeleteBtn" destination="aPu-LL-2LW" id="SoU-VR-lS5"/>
+                <outlet property="tabName" destination="JJl-KT-IYN" id="YD1-Gs-NS4"/>
+                <outlet property="trackingBackView" destination="DsI-d7-JmY" id="Siu-56-y0S"/>
+                <outlet property="view" destination="Hz6-mo-xeY" id="0bl-1N-x8E"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="Hz6-mo-xeY" customClass="ColoredView" customModule="MeetingLogic" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="270" height="233"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <customView translatesAutoresizingMaskIntoConstraints="NO" id="DsI-d7-JmY" customClass="TrackingBackView" customModule="MeetingLogic" customModuleProvider="target">
+                    <rect key="frame" x="1" y="1" width="268" height="232"/>
+                </customView>
+                <box horizontalHuggingPriority="750" boxType="separator" translatesAutoresizingMaskIntoConstraints="NO" id="Ogj-My-nry">
+                    <rect key="frame" x="-2" y="0.0" width="5" height="233"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="1" id="DjZ-SR-3fA"/>
+                    </constraints>
+                </box>
+                <box horizontalHuggingPriority="750" boxType="separator" translatesAutoresizingMaskIntoConstraints="NO" id="ATq-0U-ueS">
+                    <rect key="frame" x="267" y="0.0" width="5" height="233"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="1" id="Mma-g9-gOK"/>
+                    </constraints>
+                </box>
+                <box verticalHuggingPriority="750" boxType="separator" translatesAutoresizingMaskIntoConstraints="NO" id="IAg-vs-YaL">
+                    <rect key="frame" x="0.0" y="-2" width="270" height="5"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="YER-4e-MbQ"/>
+                    </constraints>
+                </box>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="JJl-KT-IYN">
+                    <rect key="frame" x="-2" y="109" width="274" height="16"/>
+                    <textFieldCell key="cell" lineBreakMode="truncatingMiddle" truncatesLastVisibleLine="YES" alignment="center" title="Label" id="Mu6-aD-zIg">
+                        <font key="font" usesAppearanceFont="YES"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                    <connections>
+                        <outlet property="delegate" destination="-2" id="Uff-Dw-wSN"/>
+                    </connections>
+                </textField>
+                <button hidden="YES" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="aPu-LL-2LW" customClass="ItemDeleteBtn" customModule="MeetingLogic" customModuleProvider="target">
+                    <rect key="frame" x="6" y="109" width="15" height="15"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="15" id="5sv-a7-1Y2"/>
+                        <constraint firstAttribute="height" constant="15" id="FiV-74-7b1"/>
+                    </constraints>
+                    <buttonCell key="cell" type="bevel" bezelStyle="regularSquare" imagePosition="only" alignment="center" imageScaling="proportionallyDown" inset="2" id="bnz-SK-mtg">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="deleteCanvas:" target="-2" id="ieP-pt-pQj"/>
+                    </connections>
+                </button>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="IAg-vs-YaL" secondAttribute="trailing" id="24e-eL-4px"/>
+                <constraint firstAttribute="bottom" secondItem="ATq-0U-ueS" secondAttribute="bottom" id="6EN-Fg-hbi"/>
+                <constraint firstItem="aPu-LL-2LW" firstAttribute="centerY" secondItem="Hz6-mo-xeY" secondAttribute="centerY" id="6HV-eY-L4i"/>
+                <constraint firstAttribute="bottom" secondItem="Ogj-My-nry" secondAttribute="bottom" id="6Qq-IO-OXS"/>
+                <constraint firstAttribute="trailing" secondItem="ATq-0U-ueS" secondAttribute="trailing" id="9WJ-qC-hbW"/>
+                <constraint firstItem="DsI-d7-JmY" firstAttribute="top" secondItem="Hz6-mo-xeY" secondAttribute="top" id="FZx-SM-fEu"/>
+                <constraint firstItem="Ogj-My-nry" firstAttribute="top" secondItem="Hz6-mo-xeY" secondAttribute="top" id="KZI-SX-4sx"/>
+                <constraint firstItem="aPu-LL-2LW" firstAttribute="leading" secondItem="Ogj-My-nry" secondAttribute="trailing" constant="5" id="KaN-kb-1f7"/>
+                <constraint firstItem="JJl-KT-IYN" firstAttribute="centerY" secondItem="Hz6-mo-xeY" secondAttribute="centerY" id="L9x-mb-Jwh"/>
+                <constraint firstAttribute="trailing" secondItem="JJl-KT-IYN" secondAttribute="trailing" id="OR0-e6-CrT"/>
+                <constraint firstItem="DsI-d7-JmY" firstAttribute="leading" secondItem="Ogj-My-nry" secondAttribute="trailing" id="Y1c-No-ai6"/>
+                <constraint firstItem="ATq-0U-ueS" firstAttribute="leading" secondItem="DsI-d7-JmY" secondAttribute="trailing" id="aha-f8-kRc"/>
+                <constraint firstAttribute="bottom" secondItem="IAg-vs-YaL" secondAttribute="bottom" id="b64-Kq-GPO"/>
+                <constraint firstItem="ATq-0U-ueS" firstAttribute="top" secondItem="Hz6-mo-xeY" secondAttribute="top" id="eQ9-7Q-Mj1"/>
+                <constraint firstItem="IAg-vs-YaL" firstAttribute="leading" secondItem="Hz6-mo-xeY" secondAttribute="leading" id="eRx-BU-Its"/>
+                <constraint firstItem="JJl-KT-IYN" firstAttribute="centerY" secondItem="Hz6-mo-xeY" secondAttribute="centerY" id="iwi-ja-Tdy"/>
+                <constraint firstItem="JJl-KT-IYN" firstAttribute="centerX" secondItem="Hz6-mo-xeY" secondAttribute="centerX" id="luW-Sv-gTj"/>
+                <constraint firstItem="Ogj-My-nry" firstAttribute="leading" secondItem="Hz6-mo-xeY" secondAttribute="leading" id="pdc-tO-cf1"/>
+                <constraint firstItem="JJl-KT-IYN" firstAttribute="leading" secondItem="Hz6-mo-xeY" secondAttribute="leading" id="uaN-HS-KTi"/>
+                <constraint firstItem="IAg-vs-YaL" firstAttribute="top" secondItem="DsI-d7-JmY" secondAttribute="bottom" id="yN4-DW-Ren"/>
+            </constraints>
+            <point key="canvasLocation" x="495" y="402.5"/>
+        </customView>
+    </objects>
+</document>

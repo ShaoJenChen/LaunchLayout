@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="21225" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="21225"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="MeetingItem" customModule="MeetingLogic" customModuleProvider="target">
+            <connections>
+                <outlet property="closeBtn" destination="DHl-9m-EEY" id="rQ7-cU-EMI"/>
+                <outlet property="meetingName" destination="9at-7S-m7f" id="Cgd-Lw-saJ"/>
+                <outlet property="view" destination="Hz6-mo-xeY" id="0bl-1N-x8E"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="Hz6-mo-xeY" customClass="TrackingBackView" customModule="MeetingLogic" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="167" height="48"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="9at-7S-m7f">
+                    <rect key="frame" x="36" y="16" width="131" height="17"/>
+                    <textFieldCell key="cell" lineBreakMode="truncatingMiddle" truncatesLastVisibleLine="YES" alignment="left" title="Label" id="FSK-bw-ur4">
+                        <font key="font" metaFont="system" size="14"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <button hidden="YES" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="DHl-9m-EEY" customClass="ItemDeleteBtn" customModule="MeetingLogic" customModuleProvider="target">
+                    <rect key="frame" x="132" y="4" width="30" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="30" id="5Rk-e0-aHc"/>
+                        <constraint firstAttribute="height" constant="30" id="8cb-9B-Iib"/>
+                    </constraints>
+                    <buttonCell key="cell" type="bevel" bezelStyle="rounded" imagePosition="only" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="uS7-SS-DJa">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                        <imageReference key="image" image="xmark.circle.fill" catalog="system" symbolScale="large" renderingMode="hierarchical">
+                            <hierarchicalColors>
+                                <color red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color name="secondaryLabelColor" catalog="System" colorSpace="catalog"/>
+                                <color name="underPageBackgroundColor" catalog="System" colorSpace="catalog"/>
+                            </hierarchicalColors>
+                        </imageReference>
+                    </buttonCell>
+                    <connections>
+                        <action selector="deleteBtnClicked:" target="-2" id="3si-07-15M"/>
+                    </connections>
+                </button>
+                <stackView distribution="fill" orientation="horizontal" alignment="top" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GrH-Ht-LcY">
+                    <rect key="frame" x="84" y="24" width="0.0" height="0.0"/>
+                </stackView>
+                <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="adw-Nv-UDn">
+                    <rect key="frame" x="9" y="12" width="25" height="25"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="25" id="30s-y8-9Ue"/>
+                        <constraint firstAttribute="width" secondItem="adw-Nv-UDn" secondAttribute="height" id="lEB-oc-uMM"/>
+                    </constraints>
+                    <imageCell key="cell" controlSize="mini" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="MeetingRecordIcon" id="Smz-1a-hwV"/>
+                </imageView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="DHl-9m-EEY" firstAttribute="centerY" secondItem="Hz6-mo-xeY" secondAttribute="centerY" id="0YD-Od-hpG"/>
+                <constraint firstAttribute="trailing" secondItem="DHl-9m-EEY" secondAttribute="trailing" constant="5" id="6yQ-7d-Z8s"/>
+                <constraint firstItem="9at-7S-m7f" firstAttribute="leading" secondItem="adw-Nv-UDn" secondAttribute="trailing" constant="4" id="CCX-PB-p41"/>
+                <constraint firstAttribute="trailing" secondItem="9at-7S-m7f" secondAttribute="trailing" constant="2" id="KxS-QA-wuu"/>
+                <constraint firstItem="GrH-Ht-LcY" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Hz6-mo-xeY" secondAttribute="leading" constant="10" id="Lno-uI-Y1M"/>
+                <constraint firstItem="adw-Nv-UDn" firstAttribute="leading" secondItem="Hz6-mo-xeY" secondAttribute="leading" constant="9" id="RJe-cU-GD7"/>
+                <constraint firstItem="GrH-Ht-LcY" firstAttribute="centerX" secondItem="Hz6-mo-xeY" secondAttribute="centerX" id="SW7-AU-da8"/>
+                <constraint firstItem="GrH-Ht-LcY" firstAttribute="centerY" secondItem="Hz6-mo-xeY" secondAttribute="centerY" id="a1y-e8-Gfc"/>
+                <constraint firstItem="adw-Nv-UDn" firstAttribute="centerY" secondItem="Hz6-mo-xeY" secondAttribute="centerY" id="avO-bD-rf2"/>
+                <constraint firstItem="9at-7S-m7f" firstAttribute="centerY" secondItem="Hz6-mo-xeY" secondAttribute="centerY" id="wp9-ju-h4H"/>
+            </constraints>
+            <connections>
+                <outlet property="menu" destination="FjV-is-JP8" id="XPp-2d-Gg3"/>
+            </connections>
+            <point key="canvasLocation" x="123.5" y="386"/>
+        </customView>
+        <menu id="FjV-is-JP8">
+            <items>
+                <menuItem title="Duplicate" id="Lr7-7n-tfS">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="duplicateMeetingRecord:" target="-2" id="a9v-Xw-Y0j"/>
+                    </connections>
+                </menuItem>
+            </items>
+            <point key="canvasLocation" x="-117" y="302"/>
+        </menu>
+    </objects>
+    <resources>
+        <image name="MeetingRecordIcon" width="14" height="14"/>
+        <image name="xmark.circle.fill" catalog="system" width="19" height="19"/>
+    </resources>
+</document>
